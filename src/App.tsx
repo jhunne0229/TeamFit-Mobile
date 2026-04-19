@@ -375,7 +375,7 @@ export default function App() {
     setIsAiLoading(true);
     setAiInsight(null);
     try {
-      const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
+      const ai = new GoogleGenAI({ apiKey: import.meta.env.VITE_GEMINI_API_KEY });
       
       const teamDescription = analyzedMembers.map(m => {
         const ilgan = getIlgan(m.birthDate);
