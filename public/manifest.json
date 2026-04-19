@@ -1,0 +1,21 @@
+{
+  "short_name": "TeamFit",
+  "name": "TeamFit Mobile Compatibility",
+  "description": "MBTI & Saju Team Compatibility Analyzer",
+  "icons": [
+    {
+      "src": "https://picsum.photos/seed/teamfit/192/192",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "https://picsum.photos/seed/teamfit/512/512",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#2563EB",
+  "background_color": "#F8FAFC"
+}
