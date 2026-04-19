@@ -398,7 +398,7 @@ export default function App() {
       답변은 친절하고 전문적인 말투로, 한국어로 작성해주세요. 마크다운 형식을 사용하세요.`;
 
       const response = await ai.models.generateContent({
-        model: "gemini-2.5-flash-preview-04-17",
+        model: "gemini-2.5-flash-lite",
         contents: promptText,
       });
       
